@@ -1,3 +1,11 @@
 ---
-- name: create a file
-  file: path="/tmp/foo" state=touch owner=root group=root mode=0644
+- name: create a file /tmp/foo
+  file:
+    path="/tmp/foo"
+    state=touch
+    owner=root
+    mode=0644
+- name: create a login info banner
+  template:
+    src:  "etc/motd.j2"
+    dest: "/etc/motd"
