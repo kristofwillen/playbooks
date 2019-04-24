@@ -1,0 +1,5 @@
+---
+- name: create a console login info banner
+  template:
+    src:  "etc/issue.j2"
+    dest: "/etc/issue"
