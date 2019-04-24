@@ -3,3 +3,5 @@
    become: true 
    roles:
      - rhel7-base
+   tasks:
+     - include: tasks/motd.yml
