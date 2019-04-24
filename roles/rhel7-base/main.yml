@@ -1,0 +1,4 @@
+---
+- name: this is the main RHEL7 role
+  tasks:
+    - include: tasks/motd.yml
