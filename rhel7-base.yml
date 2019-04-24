@@ -4,4 +4,4 @@
    roles:
      - rhel7-base
    tasks:
-     - include: tasks/motd.yml
+     - include: roles/rhel7-base/tasks/motd.yml
