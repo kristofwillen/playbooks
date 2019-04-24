@@ -1,0 +1,4 @@
+---
+- name: this is the main RHEL7/CentOS7 role
+
+- include: motd.yml
