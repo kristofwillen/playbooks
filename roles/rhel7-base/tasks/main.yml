@@ -1,2 +1,3 @@
 - import_tasks: motd.yml
 - import_tasks: issue.yml
+- import_tasks: ../../common/tasks/local-dirs.yml

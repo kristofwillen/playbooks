@@ -1,0 +1,8 @@
+---
+- name: Creates /usr/local tree
+  file:
+    path: /usr/local/{{ item }}
+    mode: 0755
+    state: directory
+    owner: 'root'
+    with_items: usr-local-tree

@@ -1,0 +1,7 @@
+---
+- usr-local-tree:
+  - bin
+  - etc
+  - data
+  - share
+  - lib
