@@ -1,7 +1,6 @@
----
-- usr-local-tree:
-  - bin
-  - etc
-  - data
-  - share
-  - lib
+usr_local_tree:
+  - /usr/local/bin
+  - /usr/local/etc
+  - /usr/local/data
+  - /usr/local/share
+  - /usr/local/lib
