@@ -1,7 +1,7 @@
 ---
 - name: Creates /usr/local tree
   file:
-    path: {{ item }}
+    path: "{{ item }}"
     mode: 0755
     state: directory
     owner: 'root'
